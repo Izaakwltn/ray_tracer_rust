@@ -104,7 +104,18 @@ fn build_ray(origin: Point, direction: Vector, t_max: f32) -> Ray {
 }
 
 fn default_ray() {}
+//direction is normalized- x^2 + y^2 + z^2 = 1 (direction)
+//------------------------------------------------------------------------
+//Shapes
+//------------------------------------------------------------------------
 
+fn is_intersection
+
+struct Sphere {
+    c: Point,
+}
+
+fn is_intersection(ray: Ray, shape: Shape) -> bool {}
 fn main() {
     let test_point = default_point();
     println!(
